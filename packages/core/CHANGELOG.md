@@ -1,5 +1,22 @@
 # Changelog - @alloy-js/core
 
+## 0.20.0
+
+### Bug Fixes
+
+- [#268](https://github.com/alloy-framework/alloy/pull/268) Add export for resource APIs
+- [#265](https://github.com/alloy-framework/alloy/pull/265) Connect `componentOwner` in the context tree
+- [#269](https://github.com/alloy-framework/alloy/pull/269) writeOutput will write files sequentially instead of in parallel to avoid race conditions where directories aren't created before files are attempted to be written to them.
+
+### Features
+
+- [#206](https://github.com/alloy-framework/alloy/pull/206) Add `namekey`, a kind of refkey which you can provide a name and use in place of a string. This sets the name of the symbol and serves as a refkey for that symbol.
+
+### Breaking Changes
+
+- [#206](https://github.com/alloy-framework/alloy/pull/206) Update core's representation of symbols and scopes. These changes should not impact usage of language components in code generators, but there are some significant changes for language library implementations. See https://github.com/alloy-framework/alloy/pull/206 for more details.
+
+
 ## 0.19.0
 
 ### Bug Fixes

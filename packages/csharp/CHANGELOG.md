@@ -1,5 +1,21 @@
 # Changelog - @alloy-js/csharp
 
+## 0.20.0
+
+### Bug Fixes
+
+- [#270](https://github.com/alloy-framework/alloy/pull/270) Place partial at the end of the attribute list for classes.
+- [#275](https://github.com/alloy-framework/alloy/pull/275) Make sure symbols are correctly cleaned when components rerender
+
+### Features
+
+- [#255](https://github.com/alloy-framework/alloy/pull/255) Add suport for class/record primary constructors
+
+### Breaking Changes
+
+- [#206](https://github.com/alloy-framework/alloy/pull/206) Update core's representation of symbols and scopes. These changes should not impact usage of language components in code generators, but there are some significant changes for language library implementations. See https://github.com/alloy-framework/alloy/pull/206 for more details.
+
+
 ## 0.19.0
 
 ### Features
